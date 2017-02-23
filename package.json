@@ -1,0 +1,33 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . FreeMusic --platform=darwin --arch=x64 --electronVersion=8.5.1 --icon=icon.icns --overwrite"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "electron-packager": "^8.5.1"
+  },
+  "dependencies": {
+    "browser-id3-writer": "^3.0.2",
+    "ffmetadata": "^1.4.0",
+    "jquery": "^3.1.1",
+    "node-id3": "0.0.9",
+    "open": "0.0.5",
+    "request": "^2.79.0",
+    "youtube-mp3-downloader": "^0.4.4"
+  }
+}
